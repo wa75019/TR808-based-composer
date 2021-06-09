@@ -29,7 +29,9 @@ export default function Layout({children}){
 }
 
 
-const Wrapper = styled.div``
+const Wrapper = styled.div`
+width : 100%;
+`
 
 const Main = styled.div`
 min-height: calc(100vh - 160px);

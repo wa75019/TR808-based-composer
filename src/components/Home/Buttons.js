@@ -139,6 +139,7 @@ const grid = []
     Tone.Transport.bpm.value = tempo
 
 }   
+    
 
     return (
         <Wrapper>
@@ -181,7 +182,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-width: 100%;
+width: auto;
 height: 100%;
 `
 const ButtonsGrid = styled.div`
@@ -191,10 +192,6 @@ display: flex;
 const GridColumn = styled.div`
 display: flex;
 flex-direction: column;
-    //@media (max-width: 640px){
-        //width : 300px;
-        //height : 300px;
-    //}
     
 `
 const GridButton = ({instrument, isActive, activeColor, ...rest}) =>{
