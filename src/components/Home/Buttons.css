@@ -1,0 +1,32 @@
+.noteyellow, .noteorange, .notecream, .notered, .note {
+    margin: 2px;
+}
+.note--activeyellow{
+    margin : 2px;
+    background: #e3e312 !important;
+}
+.note--activered{
+    margin : 2px;
+    background: #e22504 !important;
+}
+.note--activecream{
+    margin : 2px;
+    background: whitesmoke !important;
+}
+.note--activeorange{
+    margin : 2px;
+    background: #f27400 !important;
+}
+.note-column--active button {
+    background-color: #f27400;
+  }
+
+.grid-column :nth-child(-n+9) button{
+    color: #f27400;
+}
+.grid-column :nth-child(n+9) button{
+    color: #474787;
+}
+.grid-column :nth-child(n+17) button{
+    color: #e22504;
+}
