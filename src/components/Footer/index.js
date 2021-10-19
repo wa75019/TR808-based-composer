@@ -15,9 +15,9 @@ height : 20px;
 display : flex;
 justify-content : center;
 align-items : center;
-border-top : 1px solid;
     @media only screen and ${Breakpoints.device.sm}{
-        height: 60px;
+        border-top : 1px solid;
     }
+
 `
 
