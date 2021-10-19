@@ -50,8 +50,11 @@ const Select = () => {
     
 }
 const Wrapper = styled.select`
-    margin-top :  60px; 
+    text-align: center;
+    margin-top :  150px; 
     margin-bottom : 60px; 
+    margin-left: auto;
+    margin-right: auto;
     width : 120px;
     background-color : ${props => props.theme.inputColor};
     cursor : pointer;

@@ -10,6 +10,8 @@ export default function Header({isLight, handleToggleTheme}) {
     )
 }
 const Wrapper = styled.header`
+position: fixed;
+width: 100%;
 height : 80px;
 display : flex;
 justify-content : space-evenly;

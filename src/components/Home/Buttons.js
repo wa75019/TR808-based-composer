@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Breakpoints from 'components/UI/Breakpoints'
 import './Buttons.css'
 import { connect } from 'react-redux'
 import { useState, useEffect, useRef } from 'react'
@@ -187,7 +188,11 @@ height: 100%;
 `
 const ButtonsGrid = styled.div`
 height: 100%;
+width: 30%;
 display: flex;
+    @media only screen and ${Breakpoints.device.sm}{
+        width: 100%;
+    }
 `
 const GridColumn = styled.div`
 display: flex;
@@ -216,7 +221,10 @@ const InstrumentName = styled.div`
 const Play = styled.button`
 padding : 0.8rem 1.5rem;
 text-transform : uppercase;
-margin: 3rem auto;
+margin-bottom: 1rem;
+margin-top: 2.5rem;
+margin-left: auto;
+margin-right: auto;
 border-radius: 4px;
 cursor: pointer;
 `
@@ -226,6 +234,7 @@ flex-direction : column;
 align-items: center;
 h3{
     margin-top : 10px;
+    margin-bottom: 40px;
 }
 `
 const Tempo = styled.input`
