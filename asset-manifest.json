@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TR808-based-composer/static/css/main.89a5134e.chunk.css",
-    "main.js": "/TR808-based-composer/static/js/main.60db96fb.chunk.js",
-    "main.js.map": "/TR808-based-composer/static/js/main.60db96fb.chunk.js.map",
+    "main.js": "/TR808-based-composer/static/js/main.e354938f.chunk.js",
+    "main.js.map": "/TR808-based-composer/static/js/main.e354938f.chunk.js.map",
     "runtime-main.js": "/TR808-based-composer/static/js/runtime-main.d67a14d7.js",
     "runtime-main.js.map": "/TR808-based-composer/static/js/runtime-main.d67a14d7.js.map",
     "static/js/2.f6b63ae6.chunk.js": "/TR808-based-composer/static/js/2.f6b63ae6.chunk.js",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.d67a14d7.js",
     "static/js/2.f6b63ae6.chunk.js",
     "static/css/main.89a5134e.chunk.css",
-    "static/js/main.60db96fb.chunk.js"
+    "static/js/main.e354938f.chunk.js"
   ]
 }
