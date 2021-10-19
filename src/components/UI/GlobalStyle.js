@@ -29,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
         font-size : 1.6rem;
     }
     h2{
-        font-size : 1rem;
+        font-size : 1.2rem;
         @media only screen and ${Breakpoints.device.sm2}{
             font-size : 1.4rem;
         }
