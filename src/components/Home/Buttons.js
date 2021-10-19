@@ -222,7 +222,7 @@ const Play = styled.button`
 padding : 0.8rem 1.5rem;
 text-transform : uppercase;
 margin-bottom: 1rem;
-margin-top: 2.5rem;
+margin-top: 2rem;
 margin-left: auto;
 margin-right: auto;
 border-radius: 4px;
