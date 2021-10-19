@@ -1,4 +1,5 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
+import Breakpoints from "./Breakpoints";
 
 const GlobalStyle = createGlobalStyle`
     body{
@@ -28,7 +29,10 @@ const GlobalStyle = createGlobalStyle`
         font-size : 1.6rem;
     }
     h2{
-        font-size : 1.4rem;
+        font-size : 1.2rem;
+        @media only screen and ${Breakpoints.device.sm2}{
+            font-size : 1.4rem;
+        }
     }
     nav{
         display : flex;
