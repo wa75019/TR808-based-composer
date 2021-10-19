@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Breakpoints from 'components/UI/Breakpoints'
 
 export default function Footer(){
     return (
@@ -10,10 +11,13 @@ position: fixed;
 bottom: 0;
 left: 0;
 width: 100%;
-height : 30px;
+height : 20px;
 display : flex;
 justify-content : center;
 align-items : center;
 border-top : 1px solid;
+    @media only screen and ${Breakpoints.device.sm}{
+        height: 60px;
+    }
 `
 
